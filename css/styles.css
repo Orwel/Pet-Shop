@@ -66,7 +66,7 @@
 
   #texto2-cuadro1-header {
     position: absolute;
-    right: 50px;
+    right: 80px;
   }
   #texto3-cuadro1-header {
     margin-right: 30px;
@@ -258,9 +258,9 @@ color: #FFFFFF;
       }
 
       .imagen-contacto-footer {
-        margin-top: 10px;
-        width: 200px;
-        height: 100px;
+        margin-top: 20px;
+        width: 179px;
+        height: 66px;
       }
 
 
