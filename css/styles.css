@@ -1,0 +1,262 @@
+/* Estilos Generales */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;300&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  li {
+    margin: 5px;
+  }
+
+  .lista-nav {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+  }
+
+  .menu-icon-responsive {
+    display: none;
+  }
+
+  .cuadro1-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 20px;
+    left: calc(50% - 1024px/2);
+    top: 0px;
+    background: #222222;
+  }
+
+  .texto-cuadro1-header {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F3F3F3;
+  }
+
+  #texto1-cuadro1-header {
+    margin-left: 50px;
+  }
+
+  #texto2-cuadro1-header {
+    position: absolute;
+    right: 50px;
+  }
+  #texto3-cuadro1-header {
+    margin-right: 30px;
+  }
+
+  .cuadro2-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 80px;
+    left: calc(50% - 1024px/2);
+    top: 20px;
+    background: #F0A83E;
+  }
+
+  .logo-header {
+    width: 163.35px;
+    height: 23px;
+    margin-left: 20px;
+  }
+
+  .hero-page {
+  /* ¿si solo hay una sección conviene más usar position absolute? */
+    background-image: url(/img/hero-page-foto.png);
+    width: 100vw;
+    background-size: 100vw;
+    height: 409px;
+    background-repeat: no-repeat;
+  }
+
+  .div-hero-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    margin: 3px;
+  }
+
+  .h2-hero-page {
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .p-hero-page {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 7px
+  }
+
+  .boton-comederos {
+    width: 141px;
+    height: 49px;
+    background: #F0A83E;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  #card-section > div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .parte-inicial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+  }
+
+  .img-paw-print {
+    width: 67px;
+    height: 71px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 265px;
+    height: 352px;
+    background-image: url(hummingbird-vector-graphics.png);
+    background: #FBFAF6;
+  }
+
+  .p-precio {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+  }
+
+  .comederos-accesorios-comida {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+color: #666666;
+  }
+
+  .footer1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+    width: 100vw;
+    height: 400px;
+    bottom: 17px;
+    background: #3C2313;
+  }
+
+  .footer-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .imagen-contacto-footer {
+    width: 179px;
+    height: 66px;
+  }
+
+  .imagen-logo-footer {
+    width: 166px;
+    height: 23px;
+    margin-top: 100%;
+    margin-right: 50px;
+  }
+
+  .derechos-footer {
+    background: #222222;
+    height: 20px;
+    width: 100vw;
+    font-weight: 700;
+color: #FFFFFF;
+  }
+
+  @media (max-width: 600px) {
+    
+    .menu-icon-responsive {
+        display: block;
+        margin-right: 50px;
+    }
+    nav {
+        display: none;
+    }
+
+    .hero-page {
+        background-size: cover;
+    }
+
+    .cuadro1-header{
+        display: none;
+    }
+
+    #card-section {
+        display: flex;
+        flex-direction: column;
+        
+      }
+
+      .div-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+
+      .card {
+        margin: 10px;
+      }
+
+      .imagen-logo-footer {
+        margin-top: 5px;
+        margin-right: 250px;
+        margin-bottom: 50px;
+      }
+
+      .imagen-contacto-footer {
+        margin-top: 10px;
+        width: 200px;
+        height: 100px;
+      }
+
+
+  }
