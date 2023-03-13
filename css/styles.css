@@ -28,6 +28,10 @@
     margin: 5px;
   }
 
+  header {
+    position: fixed;
+  }
+
   .lista-nav {
     display: flex;
     justify-content: space-around;
